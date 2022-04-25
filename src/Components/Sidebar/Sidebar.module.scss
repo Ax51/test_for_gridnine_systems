@@ -1,5 +1,19 @@
 .sidebar {
-    padding: 50px 30px
+    padding: 50px 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    & .block {
+        & h4 {
+            margin-bottom: 20px;
+        }
+    }
+    & .price {
+        & input {
+            margin-bottom: 15px;
+        }
+    }
 }
 ul {
     list-style: none;

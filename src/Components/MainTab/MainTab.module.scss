@@ -1,5 +1,6 @@
 .mainTab {
     padding: 10px 30px;
     display: flex;
-    gap: 20px
+    flex-direction: column;
+    gap: 20px;
 }

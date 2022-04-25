@@ -1,4 +1,6 @@
-.app{
+.app {
+    margin: auto;
+    max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr 3fr;
 }

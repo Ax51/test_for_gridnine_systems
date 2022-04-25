@@ -2,13 +2,14 @@
     display: block;
     width: 100%;
     background-color: rgb(0, 135, 201);
-    & > header {
+    & > .flightComponentHead {
         padding: 5px 15px;
         display: flex;
         justify-content: space-between;
         color: white;
+        align-items: center;
         & img {
-            max-height: 40px;
+            max-height: 30px;
         }
         & .price {
             text-align: end;
